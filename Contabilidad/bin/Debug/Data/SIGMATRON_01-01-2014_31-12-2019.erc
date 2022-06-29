@@ -1,0 +1,39 @@
+TRANS=EMPRESA
+MSG=Creacion de archivo Empresa Periodo
+START=
+EMPRESA=SIGMATRON
+FECHAINICIO=01/01/2014
+FECHAFIN=31/12/2019
+TRL=
+DATA=
+19	1	31/12/2014	2001	Proveedores	D	66.33	False	Prueba As.Nro.6
+20	1	31/12/2014	3008	Imp. A las Ganancias	H	66.33	False	
+3	2	19/11/2014	1025	Club Arquitectura	D	150	False	Factura 123
+4	2	19/11/2014	4003	Reparaciones	H	150	False	Reparacion Reloj tiempo de ataque
+5	3	25/11/2014	1001	Caja	D	150	False	Factura 123
+6	3	25/11/2014	1025	Club Arquitectura	H	150	False	Efectivo
+7	4	26/12/2014	1002	Banco HSBC	D	25	False	
+8	4	26/12/2014	1003	Deudores por Ventas	H	25	False	cheque 123456
+15	7	31/05/2014	1005	Mercaderias	D	10.33	False	
+16	7	31/05/2014	1005	Mercaderias	D	10.04	False	
+17	7	31/05/2014	1008	Ret IVA	D	20	False	
+18	7	31/05/2014	1001	Caja	H	40.37	False	
+21	5	31/01/2014	1014	Am. Ac. Instalaciones	D	53.33	False	
+22	5	31/01/2014	1014	Am. Ac. Instalaciones	H	53.33	False	
+23	6	31/01/2014	1012	Am. Ac. Muebles y Utiles	D	26.67	False	
+24	6	31/01/2014	1012	Am. Ac. Muebles y Utiles	H	26.33	False	
+25	6	31/01/2014	1012	Am. Ac. Muebles y Utiles	H	0.34	False	
+26	8	31/01/2014	3009	Amortizaciones	D	3	False	
+27	8	31/01/2014	3009	Amortizaciones	H	3	False	
+28	9	31/01/2014	3015	Correo	D	88	False	
+29	9	31/01/2014	1003	Deudores por Ventas	D	44	False	
+30	9	31/01/2014	1003	Deudores por Ventas	D	22	False	
+31	9	31/01/2014	3004	Gastos Bancarios	H	1	False	
+32	9	31/01/2014	3016	Gastos de Auto	H	150	False	
+33	9	31/01/2014	3003	Gastos de Movilidad	H	3	False	
+34	10	31/01/2014	1005	Mercaderias	D	36	False	
+35	10	31/01/2014	2008	Ingresos Brutos a Pagar	H	36	False	
+36	11	31/01/2014	1016	Ing. Brutos Saldo a favor	D	5	False	
+37	11	31/01/2014	1016	Ing. Brutos Saldo a favor	H	5	False	
+38	12	30/12/2014	1019	Instalaciones	D	6	False	
+39	12	30/12/2014	1019	Instalaciones	H	6	False	

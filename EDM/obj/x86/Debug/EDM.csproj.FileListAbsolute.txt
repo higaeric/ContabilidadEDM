@@ -1,0 +1,14 @@
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\bin\x86\Debug\EDM.dll
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\bin\x86\Debug\EDM.pdb
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\x86\Debug\EDM.dll
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\x86\Debug\EDM.pdb
+F:\aaa Contad\Contabilidad\EDM\bin\x86\Debug\EDM.dll
+F:\aaa Contad\Contabilidad\EDM\bin\x86\Debug\EDM.pdb
+F:\aaa Contad\Contabilidad\EDM\obj\x86\Debug\EDM.dll
+F:\aaa Contad\Contabilidad\EDM\obj\x86\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\x86\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\x86\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\x86\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\x86\Debug\EDM.pdb

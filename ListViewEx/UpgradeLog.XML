@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ListViewCellEditors">
+</Property><Property Name="Solution File" Value="E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\ListViewCellEditors.sln">
+</Property><Property Name="Date" Value="Jueves, 21 de Noviembre de 2013">
+</Property><Property Name="Time" Value="16:37 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ListViewCellEditors.sln" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\ListViewCellEditors.sln">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.csproj" Description="Project file successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\ListViewEx.csproj">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.csproj.user" Description="Project user file successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\ListViewEx.csproj.user">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.cs" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\ListViewEx.cs">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.resx" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\ListViewEx.resx">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ListViewEx" Source="ListViewEx.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\TestApp.csproj" Description="Project file successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\TestApp.csproj">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\TestApp.csproj.user" Description="Project user file successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\TestApp.csproj.user">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\AssemblyInfo.cs" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\Form1.cs" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\App.ico" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\App.ico">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\Form1.resx" Description="File successfully backed up as E:\Documents and Settings\er1csson\My Documents\Downloads\ListViewEx\Backup\TestApp\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\TestApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestApp" Source="TestApp\TestApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ListViewCellEditors.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ListViewCellEditors.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TestApp" Source="TestApp\TestApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

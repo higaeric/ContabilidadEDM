@@ -1,0 +1,42 @@
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.BasicForm.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormAddEmpresa.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormAsientos.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormLicenseCode.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormMayor.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormOpenEmpresa.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormPlanDeCuentas.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormSaldos.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormSelectMayor.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.MainForm.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.Properties.Resources.resources
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\Contabilidad\obj\x86\Debug\EDM Balance.csproj.GenerateResource.Cache
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\EDM Balance.csprojResolveAssemblyReference.cache
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.BasicForm.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormAddEmpresa.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormAsientos.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormAsientosPredeterminados.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormLicenseCode.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormMayor.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormOpenEmpresa.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormPlanDeCuentas.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormSaldos.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.FormSelectMayor.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.MainForm.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\Contabilidad.Properties.Resources.resources
+F:\aaa Contad\Contabilidad\Contabilidad\obj\x86\Debug\EDM Balance.csproj.GenerateResource.Cache
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\bin\x86\Debug\EDM Balance.exe.config
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\EDM Balance.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.BasicForm.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormAddEmpresa.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormAsientos.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormAsientosPredeterminados.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormLicenseCode.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormMayor.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormOpenEmpresa.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormPlanDeCuentas.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormSaldos.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.FormSelectMayor.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.MainForm.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\Contabilidad.Properties.Resources.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Contabilidad\obj\x86\Debug\EDM Balance.csproj.GenerateResource.Cache

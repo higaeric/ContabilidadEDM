@@ -1,0 +1,30 @@
+TRANS=EMPRESA
+MSG=Creacion de archivo Empresa Periodo
+START=
+EMPRESA=Coqui SRL
+FECHAINICIO=01/01/2015
+FECHAFIN=31/12/2015
+DATA=
+1	1	03/04/2014	1001	Caja	D	170	False	
+2	1	03/04/2014	1002	Banco HSBC	H	150	False	
+3	1	03/04/2014	2004	Capital	H	30	False	
+4	1	03/04/2014	2009	Prestamos Obtenidos	H	70	False	
+5	1	03/04/2014	2006	Resultados No Asignados	D	80	False	
+6	2	13/11/2014	1005	Mercaderias	D	16	False	Tubos de Aluminio
+7	2	13/11/2014	3016	Gastos de Auto	D	3.66	False	
+8	2	13/11/2014	2001	Proveedores	H	19.66	False	
+12	4	13/11/2014	3015	Correo	D	53.67	False	Carta documento
+13	4	13/11/2014	1001	Caja	H	53.06	False	
+14	4	13/11/2014	2004	Capital	H	0.61	False	
+15	5	16/11/2014	3020	Correo Privado OCA	D	6	False	
+16	5	16/11/2014	1001	Caja	H	6	False	
+17	6	16/11/2014	3021	Correo Encomienda	D	13	False	Documentacion + Remito
+18	6	16/11/2014	2004	Capital	H	13	False	
+19	7	16/11/2014	3019	Correo Argentino	D	7	False	nivel 1
+20	7	16/11/2014	1001	Caja	H	7	False	
+21	8	22/11/2014	1001	Caja	D	11.66	False	
+22	8	22/11/2014	3001	Gastos Generales	H	10.33	False	
+23	8	22/11/2014	3012	Papeleria	H	1.33	False	
+24	9	22/11/2014	2011	Proovedor - Insumos	D	43	False	
+25	9	22/11/2014	2010	Proovedores Adicionales2	D	2	False	additional
+26	9	22/11/2014	3006	Cargas Sociales	H	45	False	

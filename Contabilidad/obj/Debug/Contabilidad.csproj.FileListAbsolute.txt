@@ -1,0 +1,50 @@
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormAsientos.resources
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.MainForm.resources
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Data\PlandeCuentas.dat
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\EDM.dll
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\EDM.pdb
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\ResolveAssemblyReference.cache
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.BasicForm.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormAsientos.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.MainForm.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormPlanDeCuentas.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormAddEmpresa.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormOpenEmpresa.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.BasicForm.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormAddEmpresa.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormAsientos.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormOpenEmpresa.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormPlanDeCuentas.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.MainForm.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.Properties.Resources.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.csproj.GenerateResource.Cache
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Data\PlandeCuentas.dat
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Contabilidad.exe
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\Contabilidad.pdb
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\EDM.dll
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\EDM.pdb
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.exe
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.pdb
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormSaldos.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormSaldos.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormMayor.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormMayor.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormSelectMayor.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormSelectMayor.resources
+G:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormLicenseCode.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\obj\Debug\Contabilidad.FormLicenseCode.resources
+F:\Contabilidad Terminado\Contabilidad\Contabilidad\bin\Debug\ObjectListView.dll

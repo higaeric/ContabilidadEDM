@@ -1,0 +1,47 @@
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\EDM\bin\Debug\EDM.dll
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\EDM\bin\Debug\EDM.pdb
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\EDM\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\EDM\obj\Debug\EDM.dll
+E:\Documents and Settings\er1csson\My Documents\Visual Studio 2008\Projects\Contabilidad\EDM\obj\Debug\EDM.pdb
+G:\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.dll
+G:\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.pdb
+G:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\ResolveAssemblyReference.cache
+G:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.dll
+G:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.pdb
+F:\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.dll
+F:\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.pdb
+F:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\ResolveAssemblyReference.cache
+F:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.dll
+F:\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.pdb
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.dll
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\bin\Debug\EDM.pdb
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.dll
+E:\Documents and Settings\er1csson\Desktop\Contabilidad Terminado\Contabilidad\EDM\obj\Debug\EDM.pdb
+F:\aaa Contad\Contabilidad\EDM\bin\Debug\EDM.dll
+F:\aaa Contad\Contabilidad\EDM\bin\Debug\EDM.pdb
+F:\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.dll
+F:\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.pdb
+F:\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\aaa Contad\Contabilidad\EDM\bin\Debug\EDM.dll
+C:\Users\Eric\Desktop\aaa Contad\Contabilidad\EDM\bin\Debug\EDM.pdb
+C:\Users\Eric\Desktop\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.dll
+C:\Users\Eric\Desktop\aaa Contad\Contabilidad\EDM\obj\Debug\EDM.pdb
+F:\Cont\Contabilidad\EDM\bin\Debug\EDM.dll
+F:\Cont\Contabilidad\EDM\bin\Debug\EDM.pdb
+F:\Cont\Contabilidad\EDM\obj\Debug\EDM.csprojResolveAssemblyReference.cache
+F:\Cont\Contabilidad\EDM\obj\Debug\EDM.dll
+F:\Cont\Contabilidad\EDM\obj\Debug\EDM.pdb
+F:\Cont\Contabilidad\EDM\bin\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\Debug\EDM.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\Contabilidad 4.0\EDM\bin\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\EDM\bin\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\EDM\bin\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\EDM\obj\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\EDM\obj\Debug\EDM.pdb

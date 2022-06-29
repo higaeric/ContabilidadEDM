@@ -1,0 +1,38 @@
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Install.exe
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Install.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.FormInstall.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.Properties.Resources.resources
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.csproj.GenerateResource.Cache
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.exe
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Install.exe.config
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\obj\x86\Debug\Install.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Data\PlandeCuentas.dat
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\EDM Balance.exe
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\ListViewEx.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\ObjectListView.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\EDM Balance.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 3.4\Install\bin\Debug\ListViewEx.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Data\PlandeCuentas.dat
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Install.exe.config
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Install.exe
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Install.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\EDM Balance.exe
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\EDM.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\ListViewEx.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\ObjectListView.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\Ionic.Zip.dll
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\EDM Balance.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\EDM.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\bin\Debug\ListViewEx.pdb
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.FormInstall.resources
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.Properties.Resources.resources
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.csproj.GenerateResource.Cache
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.exe
+C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.pdb

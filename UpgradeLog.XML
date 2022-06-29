@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Contabilidad">
+</Property><Property Name="Solution File" Value="F:\aaa Contad\Contabilidad\Contabilidad.sln">
+</Property><Property Name="User Options File" Value="F:\aaa Contad\Contabilidad\Contabilidad.suo">
+</Property><Property Name="Date" Value="lunes, 31 de marzo de 2014">
+</Property><Property Name="Time" Value="10:42 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Contabilidad.sln" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Contabilidad.suo" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad.suo">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\EDM Balance.csproj" Description="Project file successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\EDM Balance.csproj">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\EDM Balance.csproj.user" Description="Project user file successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\EDM Balance.csproj.user">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\BasicForm.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\BasicForm.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\BasicForm.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\BasicForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\DataGridViewPrinter.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\DataGridViewPrinter.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAddEmpresa.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAddEmpresa.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAddEmpresa.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAddEmpresa.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientos.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientos.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientos.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientosPredeterminados.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientosPredeterminados.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientosPredeterminados.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientosPredeterminados.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientosPrinter.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientosPrinter.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormLicenseCode.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormLicenseCode.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormLicenseCode.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormLicenseCode.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormMayor.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormMayor.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormMayor.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormMayor.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormMayorPrinter.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormMayorPrinter.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormOpenEmpresa.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormOpenEmpresa.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormOpenEmpresa.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormOpenEmpresa.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormPlanDeCuentas.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormPlanDeCuentas.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormPlanDeCuentas.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormPlanDeCuentas.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSaldos.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSaldos.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSaldos.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSaldos.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSaldosPrinter.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSaldosPrinter.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSelectMayor.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSelectMayor.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSelectMayor.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSelectMayor.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\ListViewPrinter.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\ListViewPrinter.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\MainForm.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\MainForm.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\MainFormExtended.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\MainFormExtended.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\MainFormRegistry.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\MainFormRegistry.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Printer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Printer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Program.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Program.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Properties\Resources.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Properties\Settings.Designer.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Data\PlandeCuentas.dat" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Data\PlandeCuentas.dat">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Properties\Settings.settings" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\List.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\List.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\refresh_48.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\refresh_48.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\Text preview.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\Text preview.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\Danger.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\Danger.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\View.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\View.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\Print.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\Print.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Resources\Accounting.png" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Resources\Accounting.png">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\accounting.ico" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\accounting.ico">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\BasicForm.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\BasicForm.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAddEmpresa.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAddEmpresa.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientos.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientos.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormAsientosPredeterminados.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormAsientosPredeterminados.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormLicenseCode.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormLicenseCode.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormMayor.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormMayor.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormOpenEmpresa.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormOpenEmpresa.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormPlanDeCuentas.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormPlanDeCuentas.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSaldos.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSaldos.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\FormSelectMayor.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\FormSelectMayor.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\MainForm.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\Properties\Resources.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\Contabilidad\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\EDM Balance.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EDM Balance" Source="Contabilidad\EDM Balance.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\EDM.csproj" Description="Project file successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\EDM.csproj">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\AdapterAsiento.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\AdapterAsiento.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\EDMMain.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\EDMMain.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\EmpresaArchivo.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\EmpresaArchivo.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\Entity.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\Entity.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\PlanDeCuentas.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\PlanDeCuentas.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\Registry.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\Registry.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\ValidationIO.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\ValidationIO.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\ValidationTransaction.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\ValidationTransaction.cs">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\Libraries\Ionic.Zip.dll" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\EDM\Libraries\Ionic.Zip.dll">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\EDM.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EDM" Source="EDM\EDM.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj" Description="Project file successfully backed up as F:\aaa Contad\Contabilidad\Backup\ListViewEx\ListViewEx.csproj">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj.user" Description="Project user file successfully backed up as F:\aaa Contad\Contabilidad\Backup\ListViewEx\ListViewEx.csproj.user">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\AssemblyInfo.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\ListViewEx\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.cs" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\ListViewEx\ListViewEx.cs">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.resx" Description="File successfully backed up as F:\aaa Contad\Contabilidad\Backup\ListViewEx\ListViewEx.resx">
+</Event><Event ErrorLevel="1" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Contabilidad.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Contabilidad.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EDM Balance" Source="Contabilidad\EDM Balance.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="EDM" Source="EDM\EDM.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ListViewEx" Source="ListViewEx\ListViewEx.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,26 @@
+TRANS=EMPRESA
+MSG=Creacion de archivo Empresa Periodo
+START=
+EMPRESA=Coqui SRL
+FECHAINICIO=01/01/2014
+FECHAFIN=31/12/2014
+DATA=
+1	1	31/01/2014	1001	Caja	D	100
+2	1	31/01/2014	3014	Gastos de Laboratorio	D	50
+3	1	31/01/2014	1002	Banco HSBC	H	150
+4	2	31/01/2014	3001	Gastos Generales	D	30
+5	2	31/01/2014	2004	Capital	H	30
+6	3	31/01/2014	2009	Prestamos Obtenidos	H	70
+7	3	31/01/2014	1001	Caja	D	70
+16	4	31/01/2014	4001	Ventas	H	90
+17	4	31/01/2014	3002	Imp. s/Ingresos Brutos	D	90
+18	0	03/04/2014	1001	Caja	H	170
+19	0	03/04/2014	3014	Gastos de Laboratorio	H	50
+20	0	03/04/2014	1002	Banco HSBC	D	150
+21	0	03/04/2014	3001	Gastos Generales	H	30
+22	0	03/04/2014	2004	Capital	D	30
+23	0	03/04/2014	2009	Prestamos Obtenidos	D	70
+24	0	03/04/2014	4001	Ventas	D	90
+25	0	03/04/2014	3002	Imp. s/Ingresos Brutos	H	90
+26	0	03/04/2014	9999	Resultado del Ejercicio	D	80
+27	0	03/04/2014	2006	Resultados No Asignados	H	80
