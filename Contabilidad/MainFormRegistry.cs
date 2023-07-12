@@ -22,7 +22,7 @@ namespace Contabilidad
             if (System.IO.File.Exists(archivoIni))
             {
                 EDM.Validation.Registry.ReadIni(archivoIni);
-                isOK = EDM.Validation.Registry.isOK();
+                isOK = EDM.Validation.Registry.isOK(); //McAddress is OK?
                 if (isOK)
                 {
                     int cantDiasd = EDM.Validation.Registry.isTrial();
@@ -32,25 +32,51 @@ namespace Contabilidad
                     }
                     else 
                     {
-                        if (cantDiasd < 0)
+                        if(EDM.Validation.Registry.GetLicenceType() == "Trial")
                         {
-                            //mensaje caducado
-                            MessageBox.Show("Version Caducada\r\n\r\nContactarse con del Desarrollador para obtener la version final. Muchas Gracias.", "Version de Prueba",
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Trial version
+                            if (cantDiasd < 0)
+                            {
+                                //mensaje caducado
+                                MessageBox.Show("Version Caducada\r\n\r\nContactarse con del Desarrollador para obtener la version final. Muchas Gracias.", "Version de Prueba",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                            
-                        }
-                        else if (cantDiasd <15)
-                        { 
-                            //mensaje quedan 
-                            MessageBox.Show("Version de prueba.\r\nRestan " + cantDiasd.ToString() + " días.\r\n\r\nContactarse con el Desarrollador del programa.", "Version de Prueba",
-                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+                            else if (cantDiasd <15)
+                            { 
+                                //mensaje quedan 
+                                MessageBox.Show("Version de prueba.\r\nRestan " + cantDiasd.ToString() + " días.\r\n\r\nContactarse con el Desarrollador del programa.", "Version de Prueba",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
-                            return true;
+                                return true;
+                            }
+                            else if (cantDiasd > 14)
+                            {
+                                return true;
+                            }
                         }
-                        else if (cantDiasd > 14)
+                        else
                         {
-                            return true;
+                            // User version - one year valid.
+                            if (cantDiasd < 0)
+                            {
+                                //mensaje caducado
+                                MessageBox.Show("Actualizar codigo de App.\r\n\r\nContactarse con del Desarrollador para obtener el codigo final. \r\n\r\nMuchas Gracias.", "EDM Balance",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            }
+                            else if (cantDiasd < 15)
+                            {
+                                //mensaje quedan 
+                                MessageBox.Show("Actualizar codigo de App.\r\nRestan " + cantDiasd.ToString() + " días.\r\n\r\nContactarse con el Desarrollador del programa.", "EDM Balance",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                                return true;
+                            }
+                            else if (cantDiasd > 14)
+                            {
+                                return true;
+                            }
                         }
                     }
                 }
@@ -62,9 +88,13 @@ namespace Contabilidad
                 form.ShowDialog();
                 if (EDM.Validation.Registry.passInstalationOK(form.pass))
                 {
+                    bool validYear = true;
+                    if (form.pass == "guliverk")
+                        validYear = false;
+
                     EDM.Validation.Registry.WriteIni(archivoIni,
                         EDM.Validation.Registry.getMacAddress(),
-                        DateTime.Today, false);
+                        DateTime.Today, false, validYear);
                     return true;
                 }
 
@@ -72,7 +102,7 @@ namespace Contabilidad
                 {
                     EDM.Validation.Registry.WriteIni(archivoIni,
                         EDM.Validation.Registry.getMacAddress(),
-                        DateTime.Today, true);
+                        DateTime.Today, true, false);
                     return true;
                 }
             }

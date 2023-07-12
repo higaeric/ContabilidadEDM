@@ -1,0 +1,7 @@
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\Release\EDM.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\Release\EDM.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\Release\Ionic.Zip.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\Release\EDM.csproj.CoreCompileInputs.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\Release\EDM.csproj.CopyComplete
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\Release\EDM.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\Release\EDM.pdb

@@ -38,13 +38,14 @@ namespace EDM.Validation
         /// <param name="fecha"></param>
         /// <param name="type"></param>
         public static void Escribe(string fullPath, string macAddress, DateTime fecha,
-            Validation.ValidationTransactionType type, bool istrial = false)
+            Validation.ValidationTransactionType type, bool istrial = false, bool validYear = true)
         {
             Validation.ValidationTransaction tr = new Validation.ValidationTransaction(type);
 
             tr.Header["MA"] = macAddress;
             tr.Header["FECHA"] = fecha.ToShortDateString();
             tr.Header["TRL"] = istrial ? "1" : "0";
+            tr.Header["VYR"] = validYear ? "1" : "0";
 
             using (System.IO.StreamWriter w = new System.IO.StreamWriter(fullPath, false))
             {

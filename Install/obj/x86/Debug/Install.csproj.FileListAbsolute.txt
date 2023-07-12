@@ -36,3 +36,25 @@ C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.Properties.
 C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.csproj.GenerateResource.Cache
 C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.exe
 C:\Users\Eric\Desktop\Contabilidad 4.0\Install\obj\x86\Debug\Install.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Data\PlandeCuentas.dat
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Install.exe.config
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Install.exe
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Install.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\EDM Balance.exe
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\ObjectListView.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\EDM.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\ListViewEx.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\Ionic.Zip.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\EDM Balance.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\EDM Balance.exe.config
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\EDM.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\bin\Debug\ListViewEx.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.csprojAssemblyReference.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.FormInstall.resources
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.Properties.Resources.resources
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.csproj.GenerateResource.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.csproj.CoreCompileInputs.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.csproj.CopyComplete
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.exe
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\Install\obj\x86\Debug\Install.pdb

@@ -102,10 +102,10 @@ namespace EDM.Validation
             tr = Validation.ValidationIO.Leer(fullIniPath);
         }
 
-        public static void WriteIni(string fullIniPath, string macAddress, DateTime fecha, bool isTrial)
+        public static void WriteIni(string fullIniPath, string macAddress, DateTime fecha, bool isTrial, bool validYear)
         {
             Validation.ValidationIO.Escribe(fullIniPath, macAddress ,fecha, 
-                Validation.ValidationTransactionType.INI, isTrial);
+                Validation.ValidationTransactionType.INI, isTrial, validYear);
         }
 
         public static bool isOK()
@@ -135,10 +135,41 @@ namespace EDM.Validation
                 }
                 else 
                 {
-                    return 99999;
+                    if (tr.Header["VYR"].ToString() == "0")
+                    {
+                        return 99999;
+                    }
+                    else
+                    {
+                        DateTime dt = Convert.ToDateTime(tr.Header["FECHA"].ToString());
+                        dt = dt.AddDays(365); //por un año
+                        int diference = (dt - DateTime.Today).Days;
+                        return diference;
+                    }
                 }
             }
             return -1;
+        }
+
+        public static string GetLicenceType()
+        {
+            if (tr.Header.ContainsKey("TRL"))
+            {
+                if (tr.Header["TRL"].ToString() == "1")
+                {
+                    return "Trial";
+                }
+            }
+            
+            if (tr.Header.ContainsKey("VYR") && tr.Header.ContainsKey("TRL"))
+            {
+                if (tr.Header["VYR"].ToString() == "0" && tr.Header["TRL"].ToString() == "0")
+                {
+                    return "Admin";
+                }
+            }
+
+            return "UserLicense";
         }
     }
 }

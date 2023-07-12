@@ -45,3 +45,11 @@ C:\Users\Eric\Desktop\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.SubItemEv
 C:\Users\Eric\Desktop\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.csproj.GenerateResource.Cache
 C:\Users\Eric\Desktop\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.dll
 C:\Users\Eric\Desktop\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\bin\Debug\ListViewEx.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\bin\Debug\ListViewEx.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.csprojAssemblyReference.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.SubItemEventArgs.resources
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.csproj.GenerateResource.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.csproj.CoreCompileInputs.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\ListViewEx\obj\Debug\ListViewEx.pdb

@@ -116,7 +116,7 @@ namespace EDM.Validation
                         { "EMPRESA", ""},
                         { "FECHAINICIO", ""},
                         { "FECHAFIN", ""},
-                        {"TRL", ""}
+                        { "TRL", ""}
                     };
                     break;
                 case ValidationTransactionType.INI:
@@ -127,7 +127,8 @@ namespace EDM.Validation
                         {"MSG", Description},
                         {"MA", ""},
                         {"FECHA",""},
-                        {"TRL",""}
+                        {"TRL",""},
+                        {"VYR",""}
                     };
                     break;
             }
