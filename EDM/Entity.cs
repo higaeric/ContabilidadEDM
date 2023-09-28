@@ -30,7 +30,7 @@ namespace EDM.Entity
         /// Calcula si exite Diferencia entre el Debe y el Haber
         /// </summary>
         /// <returns></returns>
-        public double GetDiferencce()
+        public double GetDiference()
         {
             double valorD = 0;
             double valorH = 0;
@@ -50,7 +50,7 @@ namespace EDM.Entity
         /// <returns></returns>
         public bool allowClose()
         {
-            if(GetDiferencce()!= 0)
+            if(GetDiference()!= 0)
                 return false;
             return true;
         }
@@ -98,12 +98,26 @@ namespace EDM.Entity
 
     public class Mayor
     {
+        public int numAsiento;
+        public DateTime fecha;
         public int codigo;
         public string nombre;
         public string description;
         private string details;
         private double debe;
         private double haber;
+
+        public int NumAsiento
+        {
+            get { return numAsiento; }
+            set { numAsiento = value; }
+        }
+
+        public DateTime Fecha
+        {
+            get { return fecha; }
+            set { fecha = value; }
+        }
 
         public string Nombre
         {
@@ -129,14 +143,31 @@ namespace EDM.Entity
             set { haber = value; }
         }
 
-        public Mayor(int cod, string nombreCuenta_, string descr, double deb, double hab, string detail_ = "")
+        public Mayor(int numAsiento_, DateTime fecha_, int cod, string nombreCuenta_, string descr, double deb, double hab, string detail_ = "")
         {
+            numAsiento = numAsiento_;
+            fecha = fecha_;
             codigo = cod;
             nombre = nombreCuenta_;
             description = descr;
             debe = deb;
             haber = hab;
             details = detail_;
+        }
+    }
+
+    /// <summary>
+    /// Para visualizar los datos adicionales en la tabla Mayor.
+    /// </summary>
+    public class RegistroMayor: Registro
+    {
+        public int NumeroAsiento;
+        public DateTime Fecha;
+
+        public RegistroMayor(int numAsiento_, DateTime fecha_, long id, int codigo, string description, ValueType type_, double valor, string details_ = "", bool isHidden_ = false): base(id, codigo, description,type_, valor, details_,isHidden_)
+        {
+            NumeroAsiento = numAsiento_;
+            Fecha = fecha_;
         }
     }
 

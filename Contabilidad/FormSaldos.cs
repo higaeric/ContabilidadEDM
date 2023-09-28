@@ -181,7 +181,7 @@ namespace Contabilidad
                     colorea = true;
                 }
                 for(int p =2; p<6;p++)
-                if (Convert.ToInt32(dtgrdSaldos.Rows[i].Cells[p].Value) == 0)
+                if (Convert.ToInt64(dtgrdSaldos.Rows[i].Cells[p].Value) == 0)
                     dtgrdSaldos.Rows[i].Cells[p].Style.ForeColor = dtgrdSaldos.Rows[i].DefaultCellStyle.BackColor;
                 else
                     dtgrdSaldos.Rows[i].Cells[p].Style.ForeColor = Color.Black;

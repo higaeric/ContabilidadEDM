@@ -33,7 +33,7 @@ namespace Contabilidad
         {
             lvArchivos.Clear();
             lvArchivos.View = View.Details;
-            lvArchivos.Columns.Add("Nombre", 160);
+            lvArchivos.Columns.Add("Nombre", 180);
             lvArchivos.Columns.Add("Fecha Inicio", 70);
             lvArchivos.Columns.Add("Fecha Final", 70);
             lvArchivos.MultiSelect = false;

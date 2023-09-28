@@ -12,3 +12,11 @@ C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\x86\Debug\EDM.pdb
 C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\bin\x86\Debug\Ionic.Zip.dll
 C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\x86\Debug\EDM.dll
 C:\Users\Eric\Desktop\Contabilidad 3.4\EDM\obj\x86\Debug\EDM.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\x86\Debug\EDM.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\x86\Debug\EDM.pdb
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\x86\Debug\EDM.csprojAssemblyReference.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\x86\Debug\EDM.csproj.CoreCompileInputs.cache
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\x86\Debug\EDM.csproj.CopyComplete
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\x86\Debug\EDM.dll
+C:\Users\higa_\OneDrive\Documents\Visual Studio 2010\Projects\Contabilidad 4.0\EDM\obj\x86\Debug\EDM.pdb

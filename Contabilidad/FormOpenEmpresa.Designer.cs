@@ -39,7 +39,7 @@
             this.groupBox1.Controls.Add(this.lvArchivos);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(312, 438);
+            this.groupBox1.Size = new System.Drawing.Size(354, 438);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Listado de Archivos [Empresa - Periodo]";
@@ -49,14 +49,14 @@
             this.lvArchivos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvArchivos.Location = new System.Drawing.Point(3, 16);
             this.lvArchivos.Name = "lvArchivos";
-            this.lvArchivos.Size = new System.Drawing.Size(306, 419);
+            this.lvArchivos.Size = new System.Drawing.Size(348, 419);
             this.lvArchivos.TabIndex = 0;
             this.lvArchivos.UseCompatibleStateImageBehavior = false;
             this.lvArchivos.DoubleClick += new System.EventHandler(this.lvArchivos_DoubleClick);
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(246, 456);
+            this.btnAceptar.Location = new System.Drawing.Point(270, 456);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 487);
+            this.ClientSize = new System.Drawing.Size(378, 487);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

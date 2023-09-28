@@ -149,7 +149,26 @@ namespace Contabilidad
 
         private void ShowMayor()
         {
-            FormSelectMayor fselect = new FormSelectMayor(edm.PDC.planDeCuentas);
+            //delta cuentas, solo las utilizadas en los asientos.
+            Dictionary<int, EDM.Entity.Cuenta> planCuentasFiltrado = new Dictionary<int, EDM.Entity.Cuenta>();
+            {
+                List<int> idCuentasUtilizadas = new List<int>();
+                foreach (EDM.Entity.Asiento asien in adapterAsiento.Asientos)
+                {
+                    idCuentasUtilizadas.AddRange(asien.Registros.Select(x => x.Codigo));
+                }
+
+                if(idCuentasUtilizadas.Count==0)
+                {
+                    MessageBox.Show("No hay cuentas seleccionadas en Asientos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                idCuentasUtilizadas = idCuentasUtilizadas.Distinct().ToList();
+                planCuentasFiltrado = edm.PDC.planDeCuentas.Where(x => idCuentasUtilizadas.Contains(x.Key)).ToDictionary(t=> t.Key, t=>t.Value);
+            }
+
+            FormSelectMayor fselect = new FormSelectMayor(planCuentasFiltrado);
             fselect.ShowDialog();
             int seleccionado = fselect.idCuenta;
             if (seleccionado == 0) return;
@@ -164,14 +183,16 @@ namespace Contabilidad
 
 
             //busco x codigo
-            List<EDM.Entity.Registro> res = new List<EDM.Entity.Registro>();
+            List<EDM.Entity.RegistroMayor> res = new List<EDM.Entity.RegistroMayor>();
 
             foreach (int oneId in idsMayorizar)
             {
                 foreach (EDM.Entity.Asiento asien in adapterAsiento.Asientos)
                     foreach (EDM.Entity.Registro reg in asien.Registros)
                         if (reg.Codigo == oneId)
-                            res.Add(reg);
+                            res.Add(new EDM.Entity.RegistroMayor(asien.Numero, asien.Fecha, reg.idRegistro, 
+                                reg.Codigo, reg.Description, reg.valueType, 
+                                reg.Valor, reg.Details, reg.isHidden));
             }
 
             int formid = addForm(tableType.Mayor);
@@ -195,7 +216,7 @@ namespace Contabilidad
             Color fontColor = Color.Gold; //.SlateBlue;
             Color backColor = Color.Transparent;
             string fontName = "Stylus BT"; //"Comic Sans MS";
-            int fontSize = 48;
+            int fontSize = 32;
             int height = 200;
             int with = 600;
 

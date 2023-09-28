@@ -33,6 +33,12 @@ namespace Contabilidad
 
         private void FormAsientos_FormClosing(object sender, FormClosingEventArgs e)
         {
+            if (currentAsiento != null && !currentAsiento.isClosed)
+            {
+                MessageBox.Show("El asiento no esta cerrado", "Cerrar Asiento", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Cancel = true;
+            }
+
             Properties.Settings.Default.checkBoxFechaMensual = checkBoxFechaMensual.Checked;
             Properties.Settings.Default.AsientosSpliterDistance1 = this.splitContainer1.SplitterDistance;
             Properties.Settings.Default.Save();
@@ -538,8 +544,7 @@ namespace Contabilidad
                         cod = edm.PDC.planDeCuentas.ElementAt(i).Key;
                 }               
                 
-                if (nuevoAsiento)
-                {
+
                     string currentFecha = "";
 
                     if(checkBoxFechaMensual.Checked )
@@ -561,20 +566,23 @@ namespace Contabilidad
                         }              
                     }
 
+                if (nuevoAsiento)
+                {
                     currentAsiento = new EDM.Entity.Asiento(numeroActual,
                         new List<EDM.Entity.Registro>(),
                         Convert.ToDateTime(currentFecha)); //cbFecha.Text));
                     Asientos.Add(currentAsiento);
-                    cbFecha.Enabled = false;
-                    dateTimePicker1.Enabled = false;
+                    //cbFecha.Enabled = false;
+                    //dateTimePicker1.Enabled = false;
                     nuevoAsiento = false;
-                    checkBoxFechaMensual.Enabled = false;
+                    //checkBoxFechaMensual.Enabled = false;
                 }
 
                 //Add registro
                 EDM.Entity.ValueType type = rbDebe.Checked? EDM.Entity.ValueType.Debe: EDM.Entity.ValueType.Haber;
                 maxIdReg++;
 
+                currentAsiento.Fecha = Convert.ToDateTime(currentFecha);
                 currentAsiento.Registros.Add(new EDM.Entity.Registro(maxIdReg, cod, cbCuenta.Text, type, Convert.ToDouble(txtImporte.Text), 
                     txtDetalle.Text, checkBoxOculto.Checked)); //numImporte.Value)));
 
@@ -642,7 +650,7 @@ namespace Contabilidad
             cbFecha.SelectedItem = (Convert.ToDateTime(lvitem.SubItems[1].Text)).ToShortDateString(); //fecha
             dateTimePicker1.Text = (Convert.ToDateTime(lvitem.SubItems[1].Text)).ToShortDateString(); //fecha
 
-            cbFecha.Enabled = false;
+            //cbFecha.Enabled = false;
             dateTimePicker1.Enabled = false;
             checkBoxFechaMensual.Enabled = false;
 
@@ -659,10 +667,40 @@ namespace Contabilidad
             int cod = 0;
             //for (int i = 0; i < edm.PDC.planDeCuentas.Count; i++)
             //{
-                //if (edm.PDC.planDeCuentas.ElementAt(i).Value == cbCuenta.SelectedItem.ToString())
-                    //cod = edm.PDC.planDeCuentas.ElementAt(i).Key;
+            //if (edm.PDC.planDeCuentas.ElementAt(i).Value == cbCuenta.SelectedItem.ToString())
+            //cod = edm.PDC.planDeCuentas.ElementAt(i).Key;
             //}
+            if (cbCuenta.SelectedValue == null)
+                return;
+
             cod = (Int32)cbCuenta.SelectedValue;
+
+            DateTime modificFecha = new DateTime(); //modificacion de fecha.
+            {
+                if (checkBoxFechaMensual.Checked)
+                {
+                    modificFecha = Convert.ToDateTime(cbFecha.Text);
+                }
+                else
+                {
+                    try
+                    {
+                        modificFecha = Convert.ToDateTime(dateTimePicker1.Value.ToString("dd/MM/yyyy"));
+                        Convert.ToDateTime(modificFecha);   //Para verificar la fecha. si es erroneo va al catch
+                    }
+                    catch
+                    {
+                        DateTime dt;
+                        DateTime.TryParse(dateTimePicker1.Value.ToShortDateString(), out dt);
+                        string s = dt.ToString("dd/MM/yyyy");
+                    }
+                }
+
+                if(modificFecha != default(DateTime) && currentAsiento.Fecha != modificFecha)
+                {
+                    currentAsiento.Fecha = Convert.ToDateTime(modificFecha);
+                }
+            }
 
             foreach (EDM.Entity.Registro reg in currentAsiento.Registros)
             {
@@ -740,6 +778,12 @@ namespace Contabilidad
 
         private void cerrarAsiento()
         {
+            //Set error----------
+            //MessageBox.Show("There is an error with source DLLs.\r\nYour operating system is obsolete and does not support updates.", "Unexpected Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            //return;
+            //--------------------
+
             btnCerrarAsiento.Enabled = false;
             cbFecha.Enabled = true;
             dateTimePicker1.Enabled = true;

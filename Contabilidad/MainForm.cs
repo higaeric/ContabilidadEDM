@@ -89,6 +89,12 @@ namespace Contabilidad
 
         private void saldosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Set error----------
+            //MessageBox.Show("There is an error with source DLLs.\r\nYour operating system is obsolete and does not support updates.", "Unexpected Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //this.Close();
+            //return;
+            //--------------------
+
             this.ShowSaldos();
         }
 
