@@ -95,6 +95,7 @@
       <DependentUpon>BasicForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DataGridViewPrinter.cs" />
+    <Compile Include="Enumerates.cs" />
     <Compile Include="FormAddEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>

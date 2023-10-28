@@ -42,6 +42,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtAsientoActual = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbCodigo = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.checkBoxFechaMensual = new System.Windows.Forms.CheckBox();
             this.checkBoxOculto = new System.Windows.Forms.CheckBox();
@@ -64,6 +66,7 @@
             this.toolStripBtnEliminar = new System.Windows.Forms.ToolStripButton();
             this.toolStripBtnModificar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripExportExcel = new System.Windows.Forms.ToolStripButton();
             this.toolStripVistaP = new System.Windows.Forms.ToolStripButton();
             this.toolStripPrint = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -101,7 +104,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.toolStrip1);
             this.splitContainer1.Panel2.Controls.Add(this.lvAsientos);
-            this.splitContainer1.Size = new System.Drawing.Size(925, 546);
+            this.splitContainer1.Size = new System.Drawing.Size(992, 546);
             this.splitContainer1.SplitterDistance = 175;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -125,8 +128,8 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer2.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer2.Size = new System.Drawing.Size(925, 175);
-            this.splitContainer2.SplitterDistance = 215;
+            this.splitContainer2.Size = new System.Drawing.Size(992, 175);
+            this.splitContainer2.SplitterDistance = 230;
             this.splitContainer2.TabIndex = 0;
             // 
             // txtFechaFinal
@@ -180,7 +183,7 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.txtAsientoActual);
-            this.groupBox2.Location = new System.Drawing.Point(524, 3);
+            this.groupBox2.Location = new System.Drawing.Point(600, 7);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(150, 161);
             this.groupBox2.TabIndex = 2;
@@ -218,13 +221,18 @@
             // txtAsientoActual
             // 
             this.txtAsientoActual.Enabled = false;
+            this.txtAsientoActual.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAsientoActual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.txtAsientoActual.Location = new System.Drawing.Point(69, 13);
             this.txtAsientoActual.Name = "txtAsientoActual";
-            this.txtAsientoActual.Size = new System.Drawing.Size(47, 20);
+            this.txtAsientoActual.Size = new System.Drawing.Size(47, 29);
             this.txtAsientoActual.TabIndex = 8;
+            this.txtAsientoActual.Text = "0";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbCodigo);
+            this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.checkBoxFechaMensual);
             this.groupBox1.Controls.Add(this.checkBoxOculto);
@@ -244,9 +252,28 @@
             this.groupBox1.Controls.Add(this.rbDebe);
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(515, 161);
+            this.groupBox1.Size = new System.Drawing.Size(591, 161);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
+            // 
+            // cbCodigo
+            // 
+            this.cbCodigo.FormattingEnabled = true;
+            this.cbCodigo.Location = new System.Drawing.Point(19, 35);
+            this.cbCodigo.Name = "cbCodigo";
+            this.cbCodigo.Size = new System.Drawing.Size(83, 21);
+            this.cbCodigo.TabIndex = 18;
+            this.cbCodigo.SelectedIndexChanged += new System.EventHandler(this.cbCodigo_SelectedIndexChanged);
+            this.cbCodigo.Click += new System.EventHandler(this.cbCodigo_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(16, 17);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(40, 13);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Codigo";
             // 
             // dateTimePicker1
             // 
@@ -301,7 +328,7 @@
             // 
             // txtImporte
             // 
-            this.txtImporte.Location = new System.Drawing.Point(283, 36);
+            this.txtImporte.Location = new System.Drawing.Point(364, 35);
             this.txtImporte.Name = "txtImporte";
             this.txtImporte.Size = new System.Drawing.Size(122, 20);
             this.txtImporte.TabIndex = 1;
@@ -311,7 +338,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(422, 11);
+            this.btnCancelar.Location = new System.Drawing.Point(503, 10);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(82, 22);
             this.btnCancelar.TabIndex = 13;
@@ -323,7 +350,7 @@
             // numImporte
             // 
             this.numImporte.DecimalPlaces = 2;
-            this.numImporte.Location = new System.Drawing.Point(333, 51);
+            this.numImporte.Location = new System.Drawing.Point(414, 50);
             this.numImporte.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -338,7 +365,7 @@
             // btnCerrarAsiento
             // 
             this.btnCerrarAsiento.Enabled = false;
-            this.btnCerrarAsiento.Location = new System.Drawing.Point(422, 87);
+            this.btnCerrarAsiento.Location = new System.Drawing.Point(503, 86);
             this.btnCerrarAsiento.Name = "btnCerrarAsiento";
             this.btnCerrarAsiento.Size = new System.Drawing.Size(82, 23);
             this.btnCerrarAsiento.TabIndex = 7;
@@ -348,7 +375,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(422, 37);
+            this.btnIngresar.Location = new System.Drawing.Point(503, 36);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(82, 44);
             this.btnIngresar.TabIndex = 6;
@@ -360,16 +387,17 @@
             // 
             this.cbCuenta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbCuenta.FormattingEnabled = true;
-            this.cbCuenta.Location = new System.Drawing.Point(19, 35);
+            this.cbCuenta.Location = new System.Drawing.Point(108, 35);
             this.cbCuenta.Name = "cbCuenta";
-            this.cbCuenta.Size = new System.Drawing.Size(230, 21);
+            this.cbCuenta.Size = new System.Drawing.Size(250, 21);
             this.cbCuenta.TabIndex = 0;
+            this.cbCuenta.SelectedIndexChanged += new System.EventHandler(this.cbCuenta_SelectedIndexChanged);
             this.cbCuenta.Click += new System.EventHandler(this.cbCuenta_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(280, 17);
+            this.label3.Location = new System.Drawing.Point(361, 16);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 2;
@@ -378,7 +406,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 16);
+            this.label5.Location = new System.Drawing.Point(110, 17);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 7;
@@ -432,6 +460,7 @@
             this.toolStripBtnEliminar,
             this.toolStripBtnModificar,
             this.toolStripSeparator1,
+            this.toolStripExportExcel,
             this.toolStripVistaP,
             this.toolStripPrint,
             this.toolStripSeparator2,
@@ -481,6 +510,16 @@
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(38, 6);
+            // 
+            // toolStripExportExcel
+            // 
+            this.toolStripExportExcel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripExportExcel.Image = ((System.Drawing.Image)(resources.GetObject("toolStripExportExcel.Image")));
+            this.toolStripExportExcel.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripExportExcel.Name = "toolStripExportExcel";
+            this.toolStripExportExcel.Size = new System.Drawing.Size(38, 28);
+            this.toolStripExportExcel.Text = "ExportExcel";
+            this.toolStripExportExcel.Click += new System.EventHandler(this.toolStripExportExcel_Click);
             // 
             // toolStripVistaP
             // 
@@ -543,16 +582,15 @@
             // 
             // lvAsientos
             // 
-            this.lvAsientos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvAsientos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lvAsientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvAsientos.FullRowSelect = true;
             this.lvAsientos.HideSelection = false;
             this.lvAsientos.Location = new System.Drawing.Point(44, 0);
-            this.lvAsientos.MultiSelect = false;
             this.lvAsientos.Name = "lvAsientos";
-            this.lvAsientos.Size = new System.Drawing.Size(877, 365);
+            this.lvAsientos.Size = new System.Drawing.Size(944, 365);
             this.lvAsientos.TabIndex = 0;
             this.lvAsientos.UseCompatibleStateImageBehavior = false;
             this.lvAsientos.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.lvAsientos_ColumnClick);
@@ -561,7 +599,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(925, 546);
+            this.ClientSize = new System.Drawing.Size(992, 546);
             this.Controls.Add(this.splitContainer1);
             this.Name = "FormAsientos";
             this.Text = "FormAsientos";
@@ -633,5 +671,8 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.CheckBox checkBoxFechaMensual;
         private System.Windows.Forms.ToolStripButton toolStripBtnEliminarRow;
+        private System.Windows.Forms.ToolStripButton toolStripExportExcel;
+        private System.Windows.Forms.ComboBox cbCodigo;
+        private System.Windows.Forms.Label label9;
     }
 }

@@ -190,5 +190,39 @@ namespace Contabilidad
             
         }
 
+        public static void WriteFile(string fileName, List<string> listStr, FileExtension fileExt_)
+        {
+            SaveFileDialog sDiag = new SaveFileDialog();
+            sDiag.FileName = fileName; // Default file name
+            sDiag.Title = fileName;
+
+            switch (fileExt_)
+            {
+                case FileExtension.txt:
+                    sDiag.DefaultExt = ".txt"; // Default file extension
+                    sDiag.Filter = "Text documents (.txt)|*.txt|All(*.*)|*"; // Filter files by extension
+                    break;
+                case FileExtension.csv:
+                    sDiag.DefaultExt = ".csv"; // Default file extension
+                    sDiag.Filter = "CSV documents (.csv)|*.csv|All(*.*)|*"; // Filter files by extension
+                    break;
+                default:
+                    sDiag.DefaultExt = ".txt"; // Default file extension
+                    sDiag.Filter = "Text documents (.txt)|*.txt|All(*.*)|*"; // Filter files by extension
+                    break;
+            }
+
+            if (sDiag.ShowDialog() != DialogResult.OK)
+                return;
+
+            if (!String.IsNullOrEmpty(sDiag.FileName))
+            {
+                using (var writer = new System.IO.StreamWriter(sDiag.FileName, false))
+                {
+                    foreach (string str in listStr)
+                        writer.WriteLine(str);
+                }
+            }
+        }
     }
 }

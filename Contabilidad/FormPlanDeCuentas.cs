@@ -81,7 +81,7 @@ namespace Contabilidad
             
             foreach (EDM.Entity.Cuenta oItem in s1)
             {
-                tvCuentas.Nodes[0].Nodes["1000"].Nodes.Add(oItem.Codigo.ToString(), oItem.Nombre);
+                tvCuentas.Nodes[0].Nodes["1000"].Nodes.Add(oItem.Codigo.ToString(), "[" + oItem.Codigo + "] " + oItem.Nombre);
             }
 
             //--------------- Busca la serie 2000 y que no sea Subcuenta.--------------
@@ -91,7 +91,7 @@ namespace Contabilidad
 
             foreach (EDM.Entity.Cuenta oItem in s2)
             {
-                tvCuentas.Nodes[0].Nodes["2000"].Nodes.Add(oItem.Codigo.ToString(), oItem.Nombre);
+                tvCuentas.Nodes[0].Nodes["2000"].Nodes.Add(oItem.Codigo.ToString(), "[" + oItem.Codigo + "] " + oItem.Nombre);
             }
 
             //--------------- Busca la serie 3000 y que no sea Subcuenta.--------------
@@ -101,7 +101,7 @@ namespace Contabilidad
 
             foreach (EDM.Entity.Cuenta oItem in s3)
             {
-                tvCuentas.Nodes[0].Nodes["3000"].Nodes.Add(oItem.Codigo.ToString(), oItem.Nombre);
+                tvCuentas.Nodes[0].Nodes["3000"].Nodes.Add(oItem.Codigo.ToString(), "[" + oItem.Codigo + "] " + oItem.Nombre);
             }
 
             //--------------- Busca la serie 4000 y que no sea Subcuenta.--------------
@@ -111,7 +111,7 @@ namespace Contabilidad
 
             foreach (EDM.Entity.Cuenta oItem in s4)
             {
-                tvCuentas.Nodes[0].Nodes["4000"].Nodes.Add(oItem.Codigo.ToString(), oItem.Nombre);
+                tvCuentas.Nodes[0].Nodes["4000"].Nodes.Add(oItem.Codigo.ToString(), "[" + oItem.Codigo + "] " + oItem.Nombre);
             }
 
             //-------------------------- Busca Subcuenta.------------------------------
@@ -121,7 +121,7 @@ namespace Contabilidad
             foreach (EDM.Entity.Cuenta oItem in ss)
             {
                 TreeNode tnode = tvCuentas.Nodes.Find(oItem.CuentaPadre.ToString(), true).First();
-                tnode.Nodes.Add(oItem.Codigo.ToString(), oItem.Nombre);
+                tnode.Nodes.Add(oItem.Codigo.ToString(), "[" + oItem.Codigo + "] " + oItem.Nombre);
             }
 
             tvCuentas.ExpandAll();

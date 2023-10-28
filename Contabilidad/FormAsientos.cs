@@ -63,6 +63,26 @@ namespace Contabilidad
             }
         }
 
+        private void cbCodigo_Click(object sender, EventArgs e)
+        {
+            if (MainForm.pdcChanged)
+            {
+                //Actualizo el combo de plan de cuentas.
+                loadPDC(edm);
+                MainForm.pdcChanged = false;
+            }
+        }
+
+        private void cbCuenta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbCodigo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void FormAsientos_Enter(object sender, EventArgs e)
         {
             if (MainForm.pdcChanged && edm !=null)
@@ -91,9 +111,13 @@ namespace Contabilidad
         {
             edm = edm_;
             AutoCompleteStringCollection stringCol = new AutoCompleteStringCollection();
-            
+            AutoCompleteStringCollection stringCodigo = new AutoCompleteStringCollection();
+
             foreach (KeyValuePair<int, EDM.Entity.Cuenta> kvp in edm.PDC.planDeCuentas)
+            {
                 stringCol.Add(kvp.Value.Nombre); //cbCuenta.Items.Add(kvp.Value);
+                stringCodigo.Add(kvp.Key.ToString());
+            }
 
             //cargo datos del combobox
             BindingSource bs = new BindingSource();
@@ -106,12 +130,19 @@ namespace Contabilidad
             cbCuenta.DataSource = bs;
             cbCuenta.ValueMember = "Codigo";
             cbCuenta.DisplayMember = "Nombre";
-
             //cargo la lista de items para el autocomplete
             cbCuenta.AutoCompleteCustomSource = stringCol;
             cbCuenta.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbCuenta.AutoCompleteSource = AutoCompleteSource.CustomSource;
-
+            
+            cbCodigo.DataSource = bs;
+            cbCodigo.ValueMember = "Codigo";
+            cbCodigo.DisplayMember = "Codigo";
+            //cargo la lista de items para el autocomplete
+            cbCodigo.AutoCompleteCustomSource = stringCodigo;
+            cbCodigo.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cbCodigo.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            
         }
 
         private void loadComboFechas(DateTime fInicio, DateTime fFinal)
@@ -524,6 +555,13 @@ namespace Contabilidad
             if (!ContinuarSiAsientoDeCierreExiste())
                 return;
             ingresarAsientoDeCierre();
+        }
+
+        private void toolStripExportExcel_Click(object sender, EventArgs e)
+        {
+            List<string> lista = ExportToExcel(true);
+            string fileName = currentEmpresa.Name + " (Asientos)";
+            MainForm.WriteFile(fileName, lista, FileExtension.csv);
         }
         #endregion
 
@@ -1154,11 +1192,30 @@ namespace Contabilidad
             refreshLvAsientos();
         }
 
+        public List<string> ExportToExcel(bool forCsvFile = false)
+        {
+            string separator = "\t";
+            if (forCsvFile) separator = ";";
 
+            // "Nro" | "Fecha" | "Codigo" | "Descripcion"| "Detalle" | "Debe" | "Haber"
+            List<string> result = new List<string>();
+            result.Add("Nro" + separator + "Fecha" + separator + "Codigo" + separator + "Descripcion" + separator + "Detalle" + separator + "Debe" + separator + "Haber");
 
+            foreach (ListViewItem reg in lvAsientos.Items)
+            {
+                string linea = reg.Text + separator + //Nro.
+                    reg.SubItems[1].Text + separator + //Fecha
+                    reg.SubItems[2].Text + separator + //codigo
+                    reg.SubItems[3].Text + separator + //description
+                    reg.SubItems[4].Text + separator + //detalle
+                    reg.SubItems[5].Text + separator + //Debe //Replace("$", "").ToString()
+                    reg.SubItems[6].Text; //Replace(".", ",");  //Haber //.Replace("$", "").ToString()
 
+                    result.Add(linea);
+            }
 
-
+            return result;
+        }
 
     }
 
